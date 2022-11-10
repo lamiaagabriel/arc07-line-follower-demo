@@ -15,11 +15,10 @@ export default function Header() {
           />
         </Link>
 
-        <h1 className="text-center text-sm xs:text-lg sm:text-xl md:text-4xl">
-          <span className="block md:inline-block md:mr-4 font-bold text-main">
-            ARC7
-          </span>
+        <h1 className="text-center text-sm xs:text-lg sm:text-xl md:text-3xl">
+          <span className="block font-bold text-main">ARC7</span>
           <span>PHASE 01</span>
+          <span className="block text-[12px] sm:text-sm">DEMO</span>
         </h1>
 
         <Link
